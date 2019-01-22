@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/24/user/917341).
-* Наставник: `Неизвестно`.
+* Студент: Vika (https://up.htmlacademy.ru/htmlcss/24/user/917341).
+* Наставник: Софья Ильинова (https://htmlacademy.ru/profile/i).
 
 ---
 
