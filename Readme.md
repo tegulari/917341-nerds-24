@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: Vika (https://up.htmlacademy.ru/htmlcss/24/user/917341).
-* Наставник: Софья Ильинова (https://htmlacademy.ru/profile/i).
+* Студент: <a href="https://up.htmlacademy.ru/htmlcss/24/user/917341">Vika</a>.
+* Наставник: <a href="https://htmlacademy.ru/profile/i">Софья Ильинова</a>.
 
 ---
 
