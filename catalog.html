@@ -24,13 +24,22 @@
     </header>
     <main class="page-content">
         <section class="user-choices">
-            <h2 class="visually-hidden">Переключатели</h2>
-            <ul class="user-choices-list">
-                <li class="user-choices-item"></li>
-                <li class="user-choices-item"></li>
-                <li class="user-choices-item"></li>
-            </ul>
-            <button class="button">Показать</button>
+            <h2 class="visually-hidden">Предпочтения по шаблонам</h2>
+            <!-- <h3>Стоимость</h3> -->
+            <form action="#" method="post">
+                <h3>Сетка:</h3>
+                <label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label> <br>
+                <label><input type="radio" name="grids" value="fixed"> Фиксированная </label> <br>
+                <label><input type="radio" name="grids" value="rubber"> Резиновая </label> <br>
+                <h3>Особенности:</h3>
+                <input type="checkbox" name="slider" checked> Слайдер <br>
+                <input type="checkbox" name="features-block"> Блок преимуществ <br>
+                <input type="checkbox" name="news" checked> Новости <br>
+                <input type="checkbox" name="gallery"> Галерея <br>
+                <input type="checkbox" name="basket"> Корзина <br>
+
+                <input type="submit" value="Отправить">
+            </form>
         </section>
         <section class="templates">
             <h2 class="visually-hidden">Галерея шаблонов</h2>
