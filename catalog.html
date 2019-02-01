@@ -25,18 +25,28 @@
 		<main class="page-content">
 			<section class="user-choices">
 				<h2 class="visually-hidden">Предпочтения по шаблонам</h2>
-				<!-- <h3>Стоимость</h3> -->
 				<form action="https://echo.htmlacademy.ru/" method="post">
-					<h3>Сетка:</h3>
-					<label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label> <br>
-					<label><input type="radio" name="grids" value="fixed"> Фиксированная </label> <br>
-					<label><input type="radio" name="grids" value="rubber"> Резиновая </label> <br>
-					<h3>Особенности:</h3>
-					<label><input type="checkbox" name="slider" checked> Слайдер</label> <br>
-					<label><input type="checkbox" name="features-block"> Блок преимуществ</label> <br>
-					<label><input type="checkbox" name="news" checked> Новости</label> <br>
-					<label><input type="checkbox" name="gallery"> Галерея</label> <br>
-					<label><input type="checkbox" name="basket"> Корзина</label> <br>
+					<div class="choice-price">
+						<h3>Стоимость</h3>
+						<!-- здесь будет штуковина для стоимости -->
+						<p>
+							От <span class="choiced-price">0</span> до <span class="choiced-price">15000</span>
+						</p>
+					</div>
+					<div class="choice-grid">
+						<h3>Сетка:</h3>
+						<label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label> <br>
+						<label><input type="radio" name="grids" value="fixed"> Фиксированная </label> <br>
+						<label><input type="radio" name="grids" value="rubber"> Резиновая </label> <br>
+					</div>
+					<div class="choice-features">
+						<h3>Особенности:</h3>
+						<label><input type="checkbox" name="slider" checked> Слайдер</label> <br>
+						<label><input type="checkbox" name="features-block"> Блок преимуществ</label> <br>
+						<label><input type="checkbox" name="news" checked> Новости</label> <br>
+						<label><input type="checkbox" name="gallery"> Галерея</label> <br>
+						<label><input type="checkbox" name="basket"> Корзина</label> <br>
+					</div>
 					<button type="submit">Показать</button>
 				</form>
 			</section>
