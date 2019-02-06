@@ -25,29 +25,50 @@
 		<main class="page-content">
 			<section class="user-choices">
 				<h2 class="visually-hidden">Предпочтения по шаблонам</h2>
-				<form action="https://echo.htmlacademy.ru/" method="post">
-					<div class="choice-price">
-						<h3>Стоимость:</h3>
-						<!-- здесь будет штуковина для стоимости -->
+				<form class="filter" action="https://echo.htmlacademy.ru/" method="get">
+					<fieldset>
+						<legend>Стоимость:</legend>
+						<input type="range" min="0" max="15000">
 						<p>
 							От <span class="choiced-price">0</span> до <span class="choiced-price">15000</span>
 						</p>
-					</div>
-					<div class="choice-grid">
-						<h3>Сетка:</h3>
-						<label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label> <br>
-						<label><input type="radio" name="grids" value="fixed"> Фиксированная </label> <br>
-						<label><input type="radio" name="grids" value="rubber"> Резиновая </label> <br>
-					</div>
-					<div class="choice-features">
-						<h3>Особенности:</h3>
-						<label><input type="checkbox" name="slider" checked> Слайдер</label> <br>
-						<label><input type="checkbox" name="features-block"> Блок преимуществ</label> <br>
-						<label><input type="checkbox" name="news" checked> Новости</label> <br>
-						<label><input type="checkbox" name="gallery"> Галерея</label> <br>
-						<label><input type="checkbox" name="basket"> Корзина</label> <br>
-					</div>
-					<button type="submit">Показать</button>
+						<!-- не знаю пока, как сделать эту форму -->
+					</fieldset>
+					<fieldset>
+						<legend>Сетка:</legend>
+						<ul>
+							<li class="filter-grid">
+								<label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label>
+							</li>
+							<li class="filter-grid">
+								<label><input type="radio" name="grids" value="fixed"> Фиксированная </label>
+							</li>
+							<li class="filter-grid">
+								<label><input type="radio" name="grids" value="rubber"> Резиновая </label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Особенности:</legend>
+						<ul>
+							<li class="filter-features">
+								<label><input type="checkbox" name="slider" checked> Слайдер</label>
+							</li>
+							<li class="filter-features">
+								<label><input type="checkbox" name="features-block"> Блок преимуществ</label>
+							</li>
+							<li class="filter-features">
+								<label><input type="checkbox" name="news" checked> Новости</label>
+							</li>
+							<li class="filter-features">
+								<label><input type="checkbox" name="gallery"> Галерея</label>
+							</li>
+							<li class="filter-features">
+								<label><input type="checkbox" name="basket"> Корзина</label> <br>
+							</li>
+						</ul>
+					</fieldset>
+					<button type="submit" class="button filter-button">Показать</button>
 				</form>
 			</section>
 			<section class="templates">
