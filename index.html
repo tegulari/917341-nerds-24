@@ -9,10 +9,10 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<a href="index.html" class="main-header-logo" aria-label="Обновить главную страницу">
-				<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
-			</a>
 			<nav class="main-navigation">
+				<a href="index.html" class="main-header-logo" aria-label="Обновить главную страницу">
+					<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
+				</a>
 				<ul class="site-navigation">
 					<li><a href="info.html">Студия</a></li>
 					<li><a href="clients.html">Клиенты</a></li>
@@ -25,40 +25,49 @@
 			</nav>
 		</header>
 		<main class="container">
-			<h1 class="visually-hidden">Дизайн-студия Нердс</h1>
-			<section class="credo">
-				<h2 class="visually-hidden">Принципы Нердс</h2>
-				<ul class="credo-list">
-					<li class="credo-item">
-						<h3>Долго, дорого, скрупулезно.</h3>
-						<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a href="#" class="button">Узнать больше</a>
-						<img src="img/slide1.png" alt="Картинка с мобильными приложениями от Нердс" width="698" height="413">
-					</li>
-					<li class="credo-item">
-						<h3>Любим математику как никто другой.</h3>
-						<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-						<a href="#" class="button">Узнать больше</a>
-						<img src="img/slide2.png" alt="Картинка c портфолио от Нердс" width="663" height="430">
-					</li>
-					<li class="credo-item">
-						<h3>Только ночь, только хардкор.</h3>
-						<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-						<a href="#" class="button">Узнать больше</a>
-						<img src="img/slide3.png" alt="Картинка с приложениями от Нердс" width="759" height="411">
-					</li>
-				</ul>
-				<ul class="slider">
-					<li>
-						<span class="slider-item">o</span>
-					</li>
-					<li>
-						<span class="slider-item">o</span>
-					</li>
-					<li>
-						<span class="slider-item">o</span>
-					</li>
-				</ul>
+			<div class="grey-bg">
+				<h1 class="visually-hidden">Дизайн-студия Нердс</h1>
+				<section class="credo">
+					<h2 class="visually-hidden">Принципы Нердс</h2>
+					<ul class="credo-list">
+						<li class="credo-item">
+							<div class="column-credo">
+								<h3>Долго, дорого, скрупулезно.</h3>
+								<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+								<a href="#" class="button">Узнать больше</a>
+							</div>
+							<img src="img/slide1.png" alt="Картинка с мобильными приложениями от Нердс" width="698" height="413">
+						</li>
+						<li class="credo-item">
+							<div class="column-credo">
+								<h3>Любим математику как никто другой.</h3>
+								<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+								<a href="#" class="button">Узнать больше</a>
+							</div>
+							<img src="img/slide2.png" alt="Картинка c портфолио от Нердс" width="663" height="430">
+						</li>
+						<li class="credo-item">
+							<div class="column-credo">
+								<h3>Только ночь, только хардкор.</h3>
+								<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+								<a href="#" class="button">Узнать больше</a>
+							</div>
+							<img src="img/slide3.png" alt="Картинка с приложениями от Нердс" width="759" height="411">
+						</li>
+					</ul>
+
+					<ul class="slider">
+						<li>
+							<span class="slider-item">o</span>
+						</li>
+						<li>
+							<span class="slider-item">o</span>
+						</li>
+						<li>
+							<span class="slider-item">o</span>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<section class="offers">
 				<h2 class="visually-hidden">Услуги Нердс</h2>
@@ -82,17 +91,19 @@
 			</section>
 			<article class="info-nerds">
 				<h2 class="visually-hidden">Информация о веб-студии Нердс</h2>
-				<header class="article-header">
-					<b class="lead">Мы — маленькая, но гордая дизайн-студия из Краснодара. </b>
-				</header>
-				<div class="article-body">
-					<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-					<b> Выполняем заказы на разработку:</b>
+				<div class="article-column">
+					<header class="article-header">
+						<b class="lead">Мы — маленькая, но гордая дизайн-студия из Краснодара. </b>
+					</header>
+					<div class="article-body">
+						<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+						<b> Выполняем заказы на разработку:</b>
 						<ul>
 							<li>Веб-сайтов любой сложности</li>
 							<li>Мобильных приложений для iOS и Android</li>
 							<li>Слайдшоу и видео для корпоративных презентаций</li>
 						</ul>
+					</div>
 				</div>
 				<footer class="article-footer">
 					<img src="img/nerds-illustration.jpg" alt="Логотип Нердс (веселая версия)" width="360" height="208">
