@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header,
+.grey-bg {
+  background-color: #eeeeee;
+}*/
+
+.main-navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
+/*  display: inline-block;*/
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.credo-list {
+  list-style: none;
+}
+
+.credo-item h3 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.button {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #fb565a;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.credo .button {
+  min-width: 240px;
+  background-color: #fb565a;
+  padding-top: 19px;
+  padding-right: 55px;
+  padding-bottom: 18px;
+  padding-left: 53px;
+}
+
+.offers-list {
+  list-style: none;
+}
+
+.offer-item h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+}
+
+.offers .button {
+  padding: 19px 39px;
+  min-width: 160px;
+}
+
+.offer-sites .button {
+  background-color: #fb565a;
+}
+
+.offer-apps .button {
+  background-color: #00ca74;
+}
+
+.offer-presentations .button {
+  background-color: #efc84a;
+}
+
+.lead {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.article-body b,
+caption {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nerds-procents td {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 10.06px;
+}
+
+.nerds-garanties td {
+  line-height: 18px;
+}
+
+.nerds-friends-list {
+  list-style: none;
+}
+
+.nerds-address h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.nerds-address p,
+.nerds-address a {
+  color: #666666;
+  line-height: 18px;
+}
+
+.nerds-address .button {
+  padding: 19px 45px;
+  border: none;
+  font-size: 16px;
+}
+
+.social-buttons {
+  list-style: none;
+}
+
+.social-buttons a {
+  text-decoration: none;
+}
+
+.socials p {
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.socials b {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.modal legend {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.modal label {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.modal .button {
+  color: #ffffff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  border: none;
+  padding: 19px 83px;
+}
+
+button .modal-close {
+  width: 21px;
+  height: 21px;
+  color: #fb565a;
+  opacity: 0.3;
+}
+
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  width: 1440px;
+
+}
+
+
+
+.main-navigation,
+.credo,
+.offers,
+.info-nerds,
+.nerds-friends,
+.nerds-address,
+.socials {
+  width: 1160px;
+  margin: 0 auto;
+
+}
+
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+}
+
+.main-header-logo {
+  width: 160px;
+}
+
+.site-navigation {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.site-navigation ul {
+
+}
+
+.site-navigation a {
+  
+}
+
+.user-nvigation {
+  width: 160px;
+}
+
+
+.credo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-credo {
+  width: 380px;
+}
+
+.column-credo h3,
+.column-credo p,
+.column-credo a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.column-credo p {
+  width: 360px;
+}
+
+.offers {
+ 
+}
+
+.offers-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer-item {
+  width: 300px;
+}
+
+.info-nerds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-column {
+  width: 660px;
+}
+
+.nerds-friends-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nerds-friends-item {
+  width: 300px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
