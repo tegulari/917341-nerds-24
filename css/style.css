@@ -33,7 +33,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header,
-.grey-bg {
+.slider {
   background-color: #eeeeee;
 }*/
 
@@ -70,10 +70,35 @@ input[type="radio"].visually-hidden {
 }
 
 .credo-list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
+/*создание слайдера*/
+
+.credo {
+  position: relative;
+
+  background-color: #eeeeee;
+}
+
+.credo-item {
+  display: none;
+}
+
+.credo-item:nth-child(1) {
+  display: block;
+}
+
+/*конец слайдера*/
+
 .credo-item h3 {
+  max-width: 600px;
+  margin: 0;
+  margin-bottom: 27px;
+
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
@@ -228,7 +253,7 @@ button .modal-close {
 
 /* ----- Сеточные стили ----- */
 
-html,
+/*html,
 body {
   width: 1440px;
 
@@ -276,15 +301,15 @@ body {
 
 .user-nvigation {
   width: 160px;
-}
+}*/
 
 
-.credo-item {
+/*.credo-item {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
-.column-credo {
+/*.column-credo {
   width: 380px;
 }
 
@@ -333,4 +358,4 @@ body {
 .socials {
   display: flex;
   justify-content: space-around;
-}
+}*/
