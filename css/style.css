@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-/*.visually-hidden:not(:focus):not(:active),
+.visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
@@ -35,7 +35,7 @@ input[type="radio"].visually-hidden {
 .main-header,
 .slider {
   background-color: #eeeeee;
-}*/
+}
 
 .main-navigation {
   font-size: 16px;
@@ -53,7 +53,6 @@ input[type="radio"].visually-hidden {
 .site-navigation a,
 .user-navigation a {
   color: #000000;
-/*  display: inline-block;*/
 }
 
 .site-navigation a:hover,
@@ -69,30 +68,25 @@ input[type="radio"].visually-hidden {
   opacity: 0.3;
 }
 
+.page-title {
+  font-family: inherit;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.site-navigation-current {
+  border-bottom: 2px solid #fb565a;
+}
+
+/*основная часть главной*/
+
 .credo-list {
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
-
-/*создание слайдера*/
-
-.credo {
-  position: relative;
-
-  background-color: #eeeeee;
-}
-
-.credo-item {
-  display: none;
-}
-
-.credo-item:nth-child(1) {
-  display: block;
-}
-
-/*конец слайдера*/
 
 .credo-item h3 {
   max-width: 600px;
@@ -105,12 +99,16 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-  font-family: "Roboto", Arial, sans-serif;
+  font: inherit;
   background-color: #fb565a;
   color: #ffffff;
+  font-size: 16px;
   font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
 }
 
 .credo .button {
@@ -177,6 +175,83 @@ caption {
 .nerds-friends-list {
   list-style: none;
 }
+
+/*основная часть внутренней*/
+.user-choices fieldset {
+  border: none;
+}
+
+.filter legend {
+  color: #000000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 20px;
+}
+
+.filter-button {
+  background-color: #eeeeee;
+  color: #000000;
+  width: 260px;
+  height: 50px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.sort-choice {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.templates-list {
+  list-style: none;
+}
+
+.template-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.template-item p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+  text-align: center;
+}
+
+.template-button {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+.pages-list {
+  list-style: none;
+}
+
+.page-item a {
+  display: inline-block;
+  color: #000000;
+  background-color: #eeeeee;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+/*футер*/
 
 .nerds-address h3 {
   color: #000000;
@@ -250,112 +325,3 @@ button .modal-close {
   color: #fb565a;
   opacity: 0.3;
 }
-
-/* ----- Сеточные стили ----- */
-
-/*html,
-body {
-  width: 1440px;
-
-}
-
-
-
-.main-navigation,
-.credo,
-.offers,
-.info-nerds,
-.nerds-friends,
-.nerds-address,
-.socials {
-  width: 1160px;
-  margin: 0 auto;
-
-}
-
-
-.main-navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 1160px;
-}
-
-.main-header-logo {
-  width: 160px;
-}
-
-.site-navigation {
-  width: 640px;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.site-navigation ul {
-
-}
-
-.site-navigation a {
-  
-}
-
-.user-nvigation {
-  width: 160px;
-}*/
-
-
-/*.credo-item {
-  display: flex;
-  justify-content: space-between;
-}*/
-
-/*.column-credo {
-  width: 380px;
-}
-
-.column-credo h3,
-.column-credo p,
-.column-credo a {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.column-credo p {
-  width: 360px;
-}
-
-.offers {
- 
-}
-
-.offers-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.offer-item {
-  width: 300px;
-}
-
-.info-nerds {
-  display: flex;
-  justify-content: space-between;
-}
-
-.article-column {
-  width: 660px;
-}
-
-.nerds-friends-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.nerds-friends-item {
-  width: 300px;
-}
-
-.socials {
-  display: flex;
-  justify-content: space-around;
-}*/
