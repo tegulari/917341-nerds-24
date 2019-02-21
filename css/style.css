@@ -82,17 +82,10 @@ input[type="radio"].visually-hidden {
 /*основная часть главной*/
 
 .credo-list {
-  margin: 0;
-  padding: 0;
-
   list-style: none;
 }
 
 .credo-item h3 {
-  max-width: 600px;
-  margin: 0;
-  margin-bottom: 27px;
-
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
@@ -111,14 +104,6 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
-.credo .button {
-  min-width: 240px;
-  background-color: #fb565a;
-  padding-top: 19px;
-  padding-right: 55px;
-  padding-bottom: 18px;
-  padding-left: 53px;
-}
 
 .offers-list {
   list-style: none;
@@ -129,16 +114,6 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
-
-}
-
-.offers .button {
-  padding: 19px 39px;
-  min-width: 160px;
-}
-
-.offer-sites .button {
-  background-color: #fb565a;
 }
 
 .offer-apps .button {
@@ -198,13 +173,6 @@ caption {
 .filter-button {
   background-color: #eeeeee;
   color: #000000;
-  width: 260px;
-  height: 50px;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
-  border: none;
 }
 
 .sort-choice {
@@ -233,22 +201,14 @@ caption {
   text-align: center;
 }
 
-.template-button {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-}
 
 .pages-list {
   list-style: none;
 }
 
 .page-item a {
-  display: inline-block;
   color: #000000;
   background-color: #eeeeee;
-  min-width: 50px;
-  min-height: 50px;
 }
 
 /*футер*/
@@ -265,12 +225,6 @@ caption {
 .nerds-address a {
   color: #666666;
   line-height: 18px;
-}
-
-.nerds-address .button {
-  padding: 19px 45px;
-  border: none;
-  font-size: 16px;
 }
 
 .social-buttons {
@@ -315,13 +269,4 @@ caption {
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
-  border: none;
-  padding: 19px 83px;
-}
-
-button .modal-close {
-  width: 21px;
-  height: 21px;
-  color: #fb565a;
-  opacity: 0.3;
 }
