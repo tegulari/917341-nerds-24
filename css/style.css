@@ -92,7 +92,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-  font: inherit;
+  font-family: "Roboto", Arial, sans-serif;
   background-color: #fb565a;
   color: #ffffff;
   font-size: 16px;
@@ -102,6 +102,17 @@ input[type="radio"].visually-hidden {
   text-align: center;
   vertical-align: middle;
   border: none;
+  border-radius: 3px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+
+.button:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -116,12 +127,32 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.offer-apps .button {
+.green-button {
   background-color: #00ca74;
 }
 
-.offer-presentations .button {
+.green-button:hover,
+.green-button:focus {
+  background-color: #00bc6c;
+}
+
+.green-button:active {
+  background-color: #00aa62;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.yellow-button {
   background-color: #efc84a;
+}
+
+.yellow-button:hover,
+.yellow-button:focus {
+  background-color: #eab534;
+}
+
+.yellow-button:active {
+  background-color: #e5a722;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .lead {
@@ -130,8 +161,7 @@ input[type="radio"].visually-hidden {
   line-height: 45px;
 }
 
-.article-body b,
-caption {
+.article-b {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -156,7 +186,7 @@ caption {
   border: none;
 }
 
-.filter legend {
+.filter-legend {
   color: #000000;
   font-size: 18px;
   line-height: 30px;
@@ -165,14 +195,30 @@ caption {
   letter-spacing: 0.2px;
 }
 
-.filter ul {
+.filter-label {
+  font-size: 16px;
+  color: #283136;
+  line-height: 20px;
+}
+
+.filter-list {
   list-style: none;
   line-height: 20px;
 }
 
-.filter-button {
+.grey-button {
   background-color: #eeeeee;
   color: #000000;
+}
+
+.grey-button:hover,
+.grey-button:focus {
+  background-color: #dfdfdf;
+}
+
+.grey-button:active {
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .sort-choice {
@@ -194,7 +240,7 @@ caption {
   color: #000000;
 }
 
-.template-item p {
+.template-description {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
@@ -206,10 +252,6 @@ caption {
   list-style: none;
 }
 
-.page-item a {
-  color: #000000;
-  background-color: #eeeeee;
-}
 
 /*футер*/
 
@@ -231,8 +273,9 @@ caption {
   list-style: none;
 }
 
-.social-buttons a {
+.social-button {
   text-decoration: none;
+  background-color: #e1e1e1;
 }
 
 .socials p {
@@ -249,7 +292,7 @@ caption {
   line-height: 36px;
 }
 
-.modal legend {
+.modal-legend {
   color: #000000;
   font-size: 45px;
   font-weight: 500;
@@ -260,13 +303,5 @@ caption {
   color: #000000;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18px;
-}
-
-.modal .button {
-  color: #ffffff;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 18px;
 }
