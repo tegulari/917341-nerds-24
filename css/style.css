@@ -13,6 +13,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -182,6 +183,7 @@ input[type="radio"].visually-hidden {
 }
 
 /*основная часть внутренней*/
+
 .fieldset {
   border: none;
 }
@@ -209,6 +211,14 @@ input[type="radio"].visually-hidden {
   list-style: none;
   line-height: 20px;
 }
+
+/*.filter-input:hover {
+  тут должен меняться цвет картинки? картинка? непонятно
+}*/
+
+/*.filter-label ~ .filter-input:disabled {
+  color: rgba(40, 49, 54, 0.3);
+} - это не работает, непонятно, как выбрать лейбл, привязанный к отключенному инпуту, чтобы он окрасился*/
 
 .grey-button {
   background-color: #eeeeee;
@@ -264,6 +274,8 @@ input[type="radio"].visually-hidden {
 .pages-list {
   list-style: none;
 }
+
+
 
 
 /*футер*/
