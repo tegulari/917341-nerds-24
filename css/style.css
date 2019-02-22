@@ -98,12 +98,14 @@ input[type="radio"].visually-hidden {
   text-align: center;
   vertical-align: middle;
   border: none;
+  outline: none;
   border-radius: 3px;
 }
 
 .button:hover,
 .button:focus {
   background-color: #e74246;
+  outline: none;
 }
 
 .button:active {
@@ -319,4 +321,25 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
 }
 
+.input-style {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  border: 2px solid #d7dcde;
+  outline: none;
+}
+
+.input-style:hover {
+  border-color: #b4b9bb;
+}
+
+.input-style:focus {
+  border-color: #000000;
+  color: #444444;
+}
+
+.input-style:invalid {
+  border-color: #e74246;
+  color: #e74246;
+}
 
