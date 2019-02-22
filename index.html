@@ -8,21 +8,23 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
+
 		<header class="main-header">
 			<nav class="main-navigation">
 				<a href="index.html" class="main-header-logo" aria-label="Обновить главную страницу">
 					<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
 				</a>
-				<ul class="site-navigation">
+				<ul class="navigation site-navigation">
 					<li><a href="info.html">Студия</a></li>
 					<li><a href="clients.html">Клиенты</a></li>
 					<li><a href="catalog.html">Магазин</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
-				<ul class="user-navigation">
+				<ul class="navigation user-navigation">
 					<li><a href="basket.html">Корзина</a></li>
 				</ul>
 			</nav>
+
 		</header>
 		<main class="container">
 			<h1 class="visually-hidden">Дизайн-студия Нердс</h1>
@@ -141,17 +143,18 @@
 				</ul>
 			</section>
 		</main>
+
 		<footer class="main-footer">
 			<section class="nerds-real-contacts">
 				<h2 class="visually-hidden">Связаться с Нердс</h2>
 				<img src="img/map-with-nerds.jpg" alt="Карта с Нердс" width="1440" height="416">
 				<div class="nerds-address">
 					<h3>Nёrds design studio</h3>
-					<p>
+					<p class="footer-address-text">
 						191186, Санкт-Петербург, <br>
 						ул. Б. Конюшенная, д. 19/8
 					</p>
-					<p>
+					<p class="footer-address-text">
 						<a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
 					</p>
 					<button class="button">Напишите нам</button>
@@ -163,23 +166,24 @@
 					<li><a class="button social-button" href="#">Фейсбук</a></li>
 					<li><a class="button social-button" href="#">Инстаграм</a></li>
 				</ul>
-				<p>
-					<b>Давайте дружить, это выгодно!</b><br>
+				<p class="footer-social-text">
+					<b class="lead social-lead">Давайте дружить, это выгодно!</b><br>
 					Скидка 10% для друзей из социальных сетей.
 				</p>
 			</div>
 		</footer>
+
 		<section class="modal modal-contacts">
 			<form class="contacts-form" action="https://echo.htmlacademy.ru/" method="post">
-				<fieldset>
-					<legend> Напишите нам </legend>
-					<label> Ваше имя
+				<fieldset class="fieldset">
+					<legend class="legend modal-legend"> Напишите нам </legend>
+					<label class="label modal-label"> Ваше имя
 						<input type="text" name="username" placeholder="Имя Фамилия" required>
 					</label> <br>
-					<label> Ваш e-mail
+					<label class="label modal-label"> Ваш e-mail
 						<input type="email" name="email" placeholder="email@example.com">
 					</label> <br>
-					<label>
+					<label class="label modal-label">
 						Текст письма
 						<textarea placeholder="В свободной форме"></textarea>
 					</label> <br>

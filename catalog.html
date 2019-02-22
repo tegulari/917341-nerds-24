@@ -8,28 +8,30 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body class="inner-page">
+
 		<header class="main-header">
 			<h1 class="page-title">Магазин готовых шаблонов</h1>
 			<a href="index.html" class="main-header-logo" aria-label="Перейти на главную">
 				<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
 			</a>
 			<nav class="main-navigation">
-				<ul class="site-navigation">
+				<ul class="navigation site-navigation">
 					<li><a href="info.html">Студия</a></li>
 					<li><a href="clients.html">Клиенты</a></li>
 					<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
-				<ul class="user-navigation">
+				<ul class="navigation user-navigation">
 					<li><a href="basket.html">Корзина</a></li>
 				</ul>
 			</nav>
 		</header>
+
 		<main class="page-content">
 			<section class="user-choices">
 				<h2 class="visually-hidden">Предпочтения по шаблонам</h2>
 				<form class="filter" action="https://echo.htmlacademy.ru/" method="get">
-					<fieldset>
+					<fieldset class="fieldset">
 						<legend class="legend filter-legend">Стоимость:</legend>
 						<input type="range" min="0" max="15000">
 						<p>
@@ -37,37 +39,37 @@
 						</p>
 						<!-- не знаю пока, как сделать эту форму -->
 					</fieldset>
-					<fieldset>
+					<fieldset class="fieldset">
 						<legend class="legend filter-legend">Сетка:</legend>
 						<ul class="filter-list">
 							<li class="filter-grid">
-								<label><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label>
+								<label class="label filter-label"><input type="radio" name="grids" value="adaptive" checked> Адаптивная </label>
 							</li>
 							<li class="filter-grid">
-								<label><input type="radio" name="grids" value="fixed"> Фиксированная </label>
+								<label class="label filter-label"><input type="radio" name="grids" value="fixed"> Фиксированная </label>
 							</li>
 							<li class="filter-grid">
-								<label><input type="radio" name="grids" value="rubber"> Резиновая </label>
+								<label class="label filter-label"><input type="radio" name="grids" value="rubber"> Резиновая </label>
 							</li>
 						</ul>
 					</fieldset>
-					<fieldset>
+					<fieldset class="fieldset">
 						<legend class="legend filter-legend">Особенности:</legend>
 						<ul class="filter-list">
 							<li class="filter-features">
-								<label><input type="checkbox" name="slider" checked> Слайдер</label>
+								<label class="label filter-label"><input type="checkbox" name="slider" checked> Слайдер</label>
 							</li>
 							<li class="filter-features">
-								<label><input type="checkbox" name="features-block"> Блок преимуществ</label>
+								<label class="label filter-label"><input type="checkbox" name="features-block"> Блок преимуществ</label>
 							</li>
 							<li class="filter-features">
-								<label><input type="checkbox" name="news" checked> Новости</label>
+								<label class="label filter-label"><input type="checkbox" name="news" checked> Новости</label>
 							</li>
 							<li class="filter-features">
-								<label><input type="checkbox" name="gallery"> Галерея</label>
+								<label class="label filter-label"><input type="checkbox" name="gallery"> Галерея</label>
 							</li>
 							<li class="filter-features">
-								<label><input type="checkbox" name="basket"> Корзина</label>
+								<label class="label filter-label"><input type="checkbox" name="basket"> Корзина</label>
 							</li>
 						</ul>
 					</fieldset>
@@ -78,11 +80,11 @@
 				<h2 class="visually-hidden">Галерея шаблонов</h2>
 				<div class="sort">
 					<h3 class="filter-legend">Сортировать</h3>
-					<a href="#" class="sort-choice">по цене</a>
-					<a href="#" class="sort-choice">по типу</a>
-					<a href="#" class="sort-choice">по названию</a>
-					<a href="#" class="sort-choice">вниз</a>
-					<a href="#" class="sort-choice">вверх</a>
+					<a href="#" class="sort-button">по цене</a>
+					<a href="#" class="sort-button">по типу</a>
+					<a href="#" class="sort-button">по названию</a>
+					<a href="#" class="sort-button">вниз</a>
+					<a href="#" class="sort-button">вверх</a>
 				</div>
 				<ul class="templates-list">
 					<li class="template-item">
@@ -152,54 +154,57 @@
 				</ul>
 			</div>
 		</main>
+
 		<footer class="main-footer">
 			<section class="nerds-real-contacts">
 				<h2 class="visually-hidden">Связаться с Нердс</h2>
 				<img src="img/map-with-nerds.jpg" alt="Карта с Нердс" width="1440" height="416">
 				<div class="nerds-address">
 					<h3>Nёrds design studio</h3>
-					<p>
+					<p class="footer-address-text">
 						191186, Санкт-Петербург, <br>
 						ул. Б. Конюшенная, д. 19/8
 					</p>
-					<p>
+					<p class="footer-address-text">
 						<a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
 					</p>
 					<button class="button">Напишите нам</button>
 				</div>
-			</section>
-			<div class="socials">
+			</section>button 
+			<buttonass="socials">
 				<ul class="social-buttons">
-					<li><a class="social-button" href="#">Вконтакте</a></li>
-					<li><a class="social-button" href="#">Фейсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
+					<li><a class="button social-button" href="#">Вконтакте</a></li>
+					<li><a class="button social-button" href="#">Фейсбук</a></li>
+					<li><a class="button social-button" href="#">Инстаграм</a></li>
 				</ul>
-				<p>
-					<b>Давайте дружить, это выгодно!</b><br>
+				<p class="footer-social-text">
+					<b class="lead social-lead">Давайте дружить, это выгодно!</b><br>
 					Скидка 10% для друзей из социальных сетей.
 				</p>
 			</div>
 		</footer>
+
 		<section class="modal modal-contacts">
 			<form class="contacts-form" action="https://echo.htmlacademy.ru/" method="post">
-				<fieldset>
-					<legend class="modal-legend"> Напишите нам </legend>
-					<label> Ваше имя
+				<fieldset class="fieldset">
+					<legend class="legend modal-legend"> Напишите нам </legend>
+					<label class="label modal-label"> Ваше имя
 						<input type="text" name="username" placeholder="Имя Фамилия" required>
-					</label>
-					<label> Ваш e-mail
+					</label> <br>
+					<label class="label modal-label"> Ваш e-mail
 						<input type="email" name="email" placeholder="email@example.com">
-					</label>
-					<label>
+					</label> <br>
+					<label class="label modal-label">
 						Текст письма
 						<textarea placeholder="В свободной форме"></textarea>
-					</label>
-					<button class="button modal-button" type="submit"> Отправить </button>
+					</label> <br>
+					<button class="button" type="submit"> Отправить </button>
 				</fieldset>
 			</form>
-			<button type="button" class="modal-close">
-				Закрыть
+			<button type="button" class="button modal-close-button" aria-label="Закрыть">
+				Х
 			</button>
 		</section>
+
 	</body>
 </html>
