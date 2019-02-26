@@ -82,7 +82,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.credo-item h3 {
+.credo-head {
   font-size: 55px;
   font-weight: 500;
   line-height: 1;
@@ -121,7 +121,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.offer-item h3 {
+.offer-head {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -168,13 +168,13 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.nerds-procents td {
+.nerds-procents {
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
 }
 
-.nerds-garanties td {
+.nerds-garanties {
   line-height: 18px;
 }
 
@@ -212,14 +212,6 @@ input[type="radio"].visually-hidden {
   line-height: 20px;
 }
 
-/*.filter-input:hover {
-  тут должен меняться цвет картинки? картинка? непонятно
-}*/
-
-/*.filter-label ~ .filter-input:disabled {
-  color: rgba(40, 49, 54, 0.3);
-} - это не работает, непонятно, как выбрать лейбл, привязанный к отключенному инпуту, чтобы он окрасился*/
-
 .grey-button {
   background-color: #eeeeee;
   color: #000000;
@@ -256,11 +248,14 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.template-item h3 {
+.template-item {
+  text-align: center;
+}
+
+.template-head {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  text-align: center;
   color: #000000;
 }
 
@@ -268,7 +263,6 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
-  text-align: center;
 }
 
 .pages-list {
@@ -280,7 +274,7 @@ input[type="radio"].visually-hidden {
 
 /*футер*/
 
-.nerds-address h3 {
+.nerds-address-head {
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -354,4 +348,3 @@ input[type="radio"].visually-hidden {
   border-color: #e74246;
   color: #e74246;
 }
-
