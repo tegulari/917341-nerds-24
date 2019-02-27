@@ -270,8 +270,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-
-
 /*футер*/
 
 .nerds-address-head {
@@ -348,3 +346,150 @@ input[type="radio"].visually-hidden {
   border-color: #e74246;
   color: #e74246;
 }
+
+/* сетки */
+
+.main-navigation {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.site-navigation {
+  padding: 0;
+  width: 440px;
+  margin: 0 200px 0 200px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  padding-top: 75px;
+}
+
+.user-navigation {
+  width: 160px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+/* долго дорого */
+
+.credo {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.credo-list {
+  margin: 0;
+  padding: 0;
+}
+
+.credo-item {
+  width: 380px;
+  padding: 55px 0;
+}
+
+.credo-item h3 {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.credo-item .button {
+  display: inline-block;
+  padding: 17px 55px 15px;
+}
+
+.credo-item p {
+  margin: 0;
+  margin-bottom: 39px;
+  text-align: left;
+}
+
+.offers {
+  width: 1160px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.offers-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.offer-item .button {
+  padding: 18px 40px 13px;
+}
+
+.offer-head {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.offer-item {
+  width: 300px;
+  padding-top: 172px;
+}
+
+.offer-item p {
+  width: 250px;
+  margin: 0;
+  margin-bottom: 47px;
+  text-align: left;
+}
+
+.info-nerds {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 40px 0 70px 0;
+  width: 1160px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.article-column {
+  width: 650px;
+  padding-top: 34px;
+}
+
+.article-header {
+
+  margin-bottom: 34px;
+
+}
+
+.article-body p {
+  margin-bottom: 38px;
+}
+
+.article-body .article-b,
+.article-body li {
+  margin-bottom: 10px;
+}
+
+.article-footer {
+  margin-left: auto;
+  width: 360px;
+}
+
+.article-footer img {
+  margin-bottom: 10px;
+}
+
+.article-footer caption {
+  margin-bottom: 10px;
+}
+
