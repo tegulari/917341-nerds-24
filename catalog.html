@@ -10,11 +10,11 @@
 	<body class="inner-page">
 
 		<header class="main-header">
-			<h1 class="page-title">Магазин готовых шаблонов</h1>
-			<a href="index.html" class="main-header-logo" aria-label="Перейти на главную">
-				<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
-			</a>
-			<nav class="main-navigation">
+			<nav class="main-navigation wrapper">
+				<h1 class="page-title">Магазин готовых шаблонов</h1>
+				<a href="index.html" class="main-header-logo" aria-label="Перейти на главную">
+					<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нердс" width="160" height="65">
+				</a>
 				<ul class="navigation site-navigation">
 					<li><a href="info.html">Студия</a></li>
 					<li><a href="clients.html">Клиенты</a></li>
@@ -27,7 +27,7 @@
 			</nav>
 		</header>
 
-		<main class="page-content">
+		<main class="page-content wrapper">
 			<section class="user-choices">
 				<h2 class="visually-hidden">Предпочтения по шаблонам</h2>
 				<form class="filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -136,23 +136,24 @@
 						<img src="img/img-kvast.jpg" alt="Шаблон Кваст" width="360" height="576">
 					</li>
 				</ul>
+				<div class="pagination">
+					<ul class="pages-list" aria-label="Страницы с шаблонами">
+						<li class="page-item page-item-current">
+							<a href="#" class="button page-button grey-button">1</a>
+						</li>
+						<li class="page-item">
+							<a href="#" class="button page-button grey-button">2</a>
+						</li>
+						<li class="page-item">
+							<a href="#" class="button page-button grey-button">3</a>
+						</li>
+						<li class="page-item">
+							<a href="#" class="button page-button grey-button">следующая</a>
+						</li>
+					</ul>
+				</div>
 			</section>
-			<div class="pagination">
-				<ul class="pages-list" aria-label="Страницы с шаблонами">
-					<li class="page-item page-item-current">
-						<a href="#" class="button page-button grey-button">1</a>
-					</li>
-					<li class="page-item">
-						<a href="#" class="button page-button grey-button">2</a>
-					</li>
-					<li class="page-item">
-						<a href="#" class="button page-button grey-button">3</a>
-					</li>
-					<li class="page-item">
-						<a href="#" class="button page-button grey-button">следующая</a>
-					</li>
-				</ul>
-			</div>
+
 		</main>
 
 		<footer class="main-footer">
