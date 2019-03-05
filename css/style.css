@@ -170,11 +170,6 @@ input[type="radio"].visually-hidden {
   background-position: 100% 20px;
 }
 
-.credo-item h3 {
-  margin: 0;
-  margin-bottom: 26px;
-}
-
 .credo-list {
   list-style: none;
 
@@ -183,6 +178,9 @@ input[type="radio"].visually-hidden {
 }
 
 .credo-head {
+  margin: 0;
+  margin-bottom: 26px;
+
   font-size: 55px;
   font-weight: 500;
   line-height: 1;
@@ -539,6 +537,12 @@ input[type="radio"].visually-hidden {
   line-height: 20px;
 }
 
+.filter-button {
+  min-width: 260px;
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+
 .grey-button {
   background-color: #eeeeee;
   color: #000000;
@@ -571,34 +575,91 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.sort {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.sort-buttons-column {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .templates-list {
   list-style: none;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   padding: 0;
+
+  margin-bottom: 60px;
+
+  width: 760px;
 }
 
 .template-item {
-  text-align: center;
+  position: relative;
+  margin-bottom: 34px;
+  padding-top: 40px;
+
 }
+
+.template-info-container {
+  text-align: center;
+
+  background-color: #eeeeee;
+  width: 360px;
+
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  min-height: 230px;
+
+  padding: 26px 30px;
+}
+
 
 .template-head {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
   color: #000000;
+  text-transform: uppercase;
+
+  margin: 0 0 15px;
 }
 
 .template-description {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
+
+  padding: 0 30px;
+  min-height: 40px;
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.template-button {
+  min-width: 200px;
+  padding: 18px 60px 13px;
 }
 
 .pages-list {
   list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-button {
+  max-width: 50px;
+  padding: 17px 20px 15px;
 }
 
 
@@ -642,15 +703,34 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
 }
 
+.modal {
+  background-color: white;
+  background-size: 590px 960px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 65px 80px 85px 100px;
+}
+
+.modal-button {
+  min-width: 260px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+}
+
 .legend {
   font-family: inherit;
   color: #000000;
+
+  margin-bottom: 15px;
 }
+
 
 .modal-legend {
   font-size: 45px;
   font-weight: 500;
   line-height: 1;
+
+  margin-bottom: 32px;
 }
 
 .modal-label {
@@ -665,6 +745,14 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   border: 2px solid #d7dcde;
   outline: none;
+
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.input-style[type=text],
+.input-style[type=email] {
+  width: 360px;
 }
 
 .input-style:hover {
