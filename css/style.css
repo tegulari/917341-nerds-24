@@ -54,6 +54,9 @@ input[type="radio"].visually-hidden {
   border: none;
   outline: none;
   border-radius: 3px;
+
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .button:hover,
@@ -72,7 +75,8 @@ input[type="radio"].visually-hidden {
 /* серый фон для двух верхних блоков */
 
 .main-header,
-.slider {
+.slider,
+.page-title {
   background-color: #eeeeee;
 }
 
@@ -86,6 +90,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   display: flex;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .navigation {
@@ -131,8 +136,11 @@ input[type="radio"].visually-hidden {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
+  text-transform: none;
 
   order: 1;
+  min-width: 760px;
+  margin: 69px auto 108px;
 }
 
 .site-navigation-current a {
@@ -272,8 +280,9 @@ input[type="radio"].visually-hidden {
 
 .offers {
   box-sizing: border-box;
-  padding-bottom: 92px;
   padding-top: 79px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 78px;
 }
 
 .offer-item {
@@ -282,6 +291,8 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   background-size: 300px 146px;
   padding-top: 172px;
+  min-height: 350px;
+  box-sizing: border-box;
 }
 
 .offer-sites {
@@ -299,7 +310,8 @@ input[type="radio"].visually-hidden {
 .offer-item p {
   width: 250px;
   margin: 0;
-  margin-bottom: 47px;
+  min-height: 70px;
+  margin-bottom: 10px;
 }
 
 .offers-list {
@@ -507,10 +519,19 @@ input[type="radio"].visually-hidden {
 
 .page-content {
   display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.user-choices {
+  min-width: 260px;
 }
 
 .fieldset {
   border: none;
+
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .filter-legend {
@@ -520,6 +541,8 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2px;
+
+  margin: 0;
 }
 
 .label {
@@ -650,17 +673,27 @@ input[type="radio"].visually-hidden {
   padding: 18px 60px 13px;
 }
 
+.pagination {
+  margin-bottom: 20px;
+  width: 445px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
 .pages-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 
   display: flex;
   justify-content: space-between;
 }
 
 .page-button {
-  max-width: 50px;
+  min-width: 50px;
   padding: 17px 20px 15px;
 }
+
 
 
 /*футер*/
@@ -703,6 +736,12 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
 }
 
+.map {
+  /* как ее растянуть */
+}
+
+/* модальное окошко */
+
 .modal {
   background-color: white;
   background-size: 590px 960px;
@@ -737,6 +776,10 @@ input[type="radio"].visually-hidden {
   color: #000000;
   font-weight: 700;
   line-height: 18px;
+  margin: 0;
+
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .input-style {
@@ -748,6 +791,8 @@ input[type="radio"].visually-hidden {
 
   margin-bottom: 15px;
   display: inline-block;
+
+  padding-top: 10px;
 }
 
 .input-style[type=text],
