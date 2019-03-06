@@ -280,30 +280,36 @@ input[type="radio"].visually-hidden {
 
 .offers {
   box-sizing: border-box;
-  padding-top: 79px;
+  padding-top: 80px;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 78px;
 }
 
 .offer-item {
   width: 300px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 300px 146px;
-  padding-top: 172px;
   min-height: 350px;
   box-sizing: border-box;
 }
 
-.offer-sites {
+.offer-head::before {
+  content: " ";
+  top: 0;
+  margin-bottom: 26px;
+  display: block;
+  height: 146px;
+  width: 300px;
+
+}
+
+.offer-sites .offer-head::before {
   background-image: url("../img/illustration-1.png");
 }
 
-.offer-apps {
+.offer-apps .offer-head::before {
   background-image: url("../img/illustration-2.png");
 }
 
-.offer-presentations {
+.offer-presentations .offer-head::before {
   background-image: url("../img/illustration-3.png");
 }
 
@@ -441,6 +447,8 @@ input[type="radio"].visually-hidden {
 .nerds-garanties {
   line-height: 18px;
 }
+
+/* раздел с партнерами */
 
 .nerds-friends {
   padding: 45px 55px 40px 86px;
