@@ -287,13 +287,12 @@ input[type="radio"].visually-hidden {
 
 .offer-item {
   width: 300px;
-  min-height: 350px;
   box-sizing: border-box;
 }
 
-.offer-head::before {
+.offer-item::before {
   content: " ";
-  top: 0;
+
   margin-bottom: 26px;
   display: block;
   height: 146px;
@@ -301,15 +300,15 @@ input[type="radio"].visually-hidden {
 
 }
 
-.offer-sites .offer-head::before {
+.offer-sites::before {
   background-image: url("../img/illustration-1.png");
 }
 
-.offer-apps .offer-head::before {
+.offer-apps::before {
   background-image: url("../img/illustration-2.png");
 }
 
-.offer-presentations .offer-head::before {
+.offer-presentations::before {
   background-image: url("../img/illustration-3.png");
 }
 
@@ -412,7 +411,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-transform: uppercase;
 
-  display: block;
+  display: inline-block;
   margin-bottom: 25px;
 
 }
@@ -424,13 +423,8 @@ input[type="radio"].visually-hidden {
 }
 
 .article-footer img {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-
-.article-footer caption {
-  margin-bottom: 10px;
-}
-
 
 .lead {
   font-size: 45px;
@@ -438,15 +432,48 @@ input[type="radio"].visually-hidden {
   line-height: 1;
 }
 
+.facts-caption {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-bottom: 37px;
+}
+
 .nerds-procents {
   font-size: 45px;
   font-weight: 700;
+  line-height: 1;
+
+  margin-bottom: 19px;
+  padding: 0;
+  display: inline-block;
+}
+
+.sup-procents {
+  font-size: 26px;
+  vertical-align: super;
   line-height: 1;
 }
 
 .nerds-garanties {
   line-height: 18px;
+  display: inline-block;
 }
+
+.nerds-facts {
+  border-spacing: 0;
+}
+
+.nerds-procents td {
+  padding-right: 20px;
+}
+
+.nerds-garanties td {
+  padding-right: 26px;
+}
+
+
 
 /* раздел с партнерами */
 
