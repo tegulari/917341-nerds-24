@@ -410,7 +410,9 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+}
 
+.article-column .article-subheader {
   display: block;
   margin-bottom: 25px;
 }
@@ -431,17 +433,13 @@ input[type="radio"].visually-hidden {
 }
 
 .article-footer .article-subheader {
-  margin-bottom: 37px;
+  margin-bottom: 38px;
 }
 
 .nerds-procents {
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
-
-  margin-bottom: 19px;
-  padding: 0;
-  display: inline-block;
 }
 
 .sup-procents {
@@ -452,22 +450,12 @@ input[type="radio"].visually-hidden {
 
 .nerds-garanties {
   line-height: 18px;
-  display: inline-block;
-}
-
-.nerds-facts {
-  border-spacing: 0;
 }
 
 .nerds-procents td {
-  padding-right: 20px;
+  width: 108px;
+  padding-bottom: 16px;
 }
-
-.nerds-garanties td {
-  padding-right: 26px;
-}
-
-
 
 /* раздел с партнерами */
 
