@@ -188,8 +188,7 @@ input[type="radio"].visually-hidden {
 }
 
 .credo-head {
-  margin: 0;
-  margin-bottom: 26px;
+  margin: 0 0 26px;
 
   font-size: 55px;
   font-weight: 500;
@@ -205,8 +204,7 @@ input[type="radio"].visually-hidden {
 
 .credo-item p {
   width: 360px;
-  margin: 0;
-  margin-bottom: 39px;
+  margin: 0 0 39px;
 }
 
 /* Переключатели */
@@ -284,8 +282,9 @@ input[type="radio"].visually-hidden {
 .offers {
   box-sizing: border-box;
   padding-top: 82px;
-  border-bottom: 1px solid #eeeeee;
   padding-bottom: 80px;
+  border-bottom: 1px solid #eeeeee;
+
 }
 
 .offer-item {
@@ -317,9 +316,8 @@ input[type="radio"].visually-hidden {
 
 .offer-item p {
   width: 250px;
-  margin: 0;
+  margin: 0 0 10px;
   min-height: 70px;
-  margin-bottom: 10px;
 }
 
 .offers-list {
@@ -338,8 +336,7 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   text-transform: uppercase;
 
-  margin: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .green-button {
@@ -601,7 +598,6 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-label {
-
   color: #283136;
   line-height: 20px;
 }
@@ -667,9 +663,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 
   padding: 0;
-
   margin-bottom: 60px;
-
   width: 760px;
 }
 
@@ -677,7 +671,6 @@ input[type="radio"].visually-hidden {
   position: relative;
   margin-bottom: 34px;
   padding-top: 40px;
-
 }
 
 .template-info-container {
@@ -711,10 +704,9 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #666666;
 
-  padding: 0 30px;
   min-height: 40px;
-  margin: 0;
-  margin-bottom: 42px;
+  padding: 0 30px;
+  margin: 0 0 42px;
 }
 
 .template-button {
@@ -790,8 +782,6 @@ input[type="radio"].visually-hidden {
 
 /* модальное окошко */
 
-
-
 .modal {
   background-color: white;
   background-size: 590px 960px;
@@ -830,7 +820,6 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-
 .modal-legend {
   font-size: 45px;
   font-weight: 500;
@@ -843,9 +832,8 @@ input[type="radio"].visually-hidden {
   color: #000000;
   font-weight: 700;
   line-height: 18px;
-  margin: 0;
+  margin: 0 0 9px;
   display: inline-block;
-  margin-bottom: 9px;
 }
 
 .input-style {
