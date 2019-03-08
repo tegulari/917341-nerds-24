@@ -565,7 +565,9 @@ input[type="radio"].visually-hidden {
 
 .fieldset {
   border: none;
+}
 
+.filter-fieldset {
   display: flex;
   margin-bottom: 10px;
 }
@@ -779,10 +781,7 @@ input[type="radio"].visually-hidden {
 
 /* модальное окошко */
 
-.fieldset {
-  padding: 0;
-  margin: 0;
-}
+
 
 .modal {
   background-color: white;
@@ -793,17 +792,35 @@ input[type="radio"].visually-hidden {
   width: 960px;
 }
 
+.modal-fieldset {
+  padding: 0;
+  margin: 0 auto;
+  width: 760px;
+  box-sizing: border-box;
+}
+
+.modal-rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modal-row {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
 .modal-button {
   min-width: 260px;
   padding-top: 17px;
   padding-bottom: 15px;
+  margin-top: 7px;
 }
 
 .legend {
   font-family: inherit;
   color: #000000;
-
-  margin-bottom: 15px;
 }
 
 
@@ -812,7 +829,7 @@ input[type="radio"].visually-hidden {
   font-weight: 500;
   line-height: 1;
 
-  margin-bottom: 41px;
+  margin-bottom: 38px;
 }
 
 .modal-label {
@@ -820,7 +837,6 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   line-height: 18px;
   margin: 0;
-
   display: inline-block;
   margin-bottom: 9px;
 }
@@ -833,12 +849,15 @@ input[type="radio"].visually-hidden {
   border-radius: 3px;
   outline: none;
 
-  margin-bottom: 15px;
-  margin-left: 2px;
-  display: inline-block;
   box-sizing: border-box;
   width: 360px;
   padding: 15px 15px 13px 14px;
+}
+
+textarea.input-style {
+  width: 760px;
+  min-height: 118px;
+  padding-top: 10px;
 }
 
 .input-style:hover {
@@ -854,3 +873,5 @@ input[type="radio"].visually-hidden {
   border-color: #e74246;
   color: #e74246;
 }
+
+/* почему-то оно всегда инвалид */

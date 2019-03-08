@@ -171,19 +171,22 @@
 
 		<section class="modal modal-contacts">
 			<form class="contacts-form" action="https://echo.htmlacademy.ru/" method="post">
-				<fieldset class="fieldset">
+				<fieldset class="fieldset modal-fieldset">
 					<legend class="legend modal-legend"> Напишите нам </legend>
-					<label class="label modal-label" for="modal-username"> Ваше имя: </label>
-					<input id="modal-username" class="input-style" type="text" name="username" placeholder="Имя Фамилия" required>
-
-					<label class="label modal-label" for="modal-email"> Ваш e-mail:</label>
-						<input id="modal-email" class="input-style" type="email" name="email" placeholder="email@example.com">
-					 <br>
-					<label class="label modal-label">
-						Текст письма:
-						<br>
-						<textarea class="input-style" placeholder="В свободной форме"></textarea>
-					</label> <br>
+					<div class="modal-rows">
+						<div class="modal-row">
+							<label class="label modal-label" for="modal-username"> Ваше имя</label><br>
+							<input id="modal-username" class="input-style" type="text" name="username" placeholder="Имя Фамилия" required>
+						</div>
+						<div class="modal-row">
+							<label class="label modal-label" for="modal-email"> Ваш e-mail:</label><br>
+							<input id="modal-email" class="input-style" type="email" name="email" placeholder="email@example.com">
+						</div>
+						<div class="modal-row">
+							<label class="label modal-label">Текст письма:</label><br>
+							<textarea class="input-style" placeholder="В свободной форме"></textarea>
+						 </div>
+					</div>
 					<button class="button modal-button" type="submit"> Отправить </button>
 				</fieldset>
 			</form>
@@ -191,5 +194,6 @@
 				Х
 			</button>
 		</section>
+
 	</body>
 </html>
