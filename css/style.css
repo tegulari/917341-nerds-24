@@ -283,9 +283,9 @@ input[type="radio"].visually-hidden {
 
 .offers {
   box-sizing: border-box;
-  padding-top: 80px;
+  padding-top: 82px;
   border-bottom: 1px solid #eeeeee;
-  padding-bottom: 78px;
+  padding-bottom: 80px;
 }
 
 .offer-item {
@@ -414,7 +414,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-transform: uppercase;
 
-  display: inline-block;
+  display: block;
   margin-bottom: 25px;
 }
 
