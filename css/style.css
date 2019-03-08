@@ -409,16 +409,14 @@ input[type="radio"].visually-hidden {
   margin-left: 36px;
 }
 
-.article-b {
+.article-subheader {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 
   display: inline-block;
   margin-bottom: 25px;
-
 }
-
 
 .article-footer {
   margin-left: auto;
@@ -435,11 +433,7 @@ input[type="radio"].visually-hidden {
   line-height: 1;
 }
 
-.facts-caption {
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-
+.article-footer .article-subheader {
   margin-bottom: 37px;
 }
 
