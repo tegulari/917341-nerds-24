@@ -475,23 +475,42 @@ input[type="radio"].visually-hidden {
 /* раздел с партнерами */
 
 .nerds-friends {
-  padding: 45px 55px 40px 86px;
+  padding-top: 45px;
   margin-bottom: 80px;
 }
 
 .nerds-friends-list {
   list-style: none;
 
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .nerds-friends-item {
   width: 260px;
+  position: relative;
+  min-height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* не знаю, как выровнять его по вертикали точнее */
+
+
+.nerds-friends-item:not(:last-child)::after {
+  content: "";
+
+  border-right: 2px solid #eeeeee;
+  height: 50px;
+
+  position: absolute;
+  right: -20px;
+  top: 21px;
 }
 
 .nerds-real-contacts {
