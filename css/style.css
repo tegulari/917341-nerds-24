@@ -532,7 +532,8 @@ input[type="radio"].visually-hidden {
 }
 
 .nerds-real-contacts img {
-  margin-bottom: 53px;
+  margin: 53px auto;
+  display: block;
 }
 
 .social-buttons {
@@ -729,6 +730,10 @@ input[type="radio"].visually-hidden {
   padding: 17px 20px 15px;
 }
 
+.page-item:nth-child(4) .page-button {
+  min-width: 262px;
+}
+
 
 
 /*футер*/
@@ -771,11 +776,13 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
 }
 
-.map {
-  /* как ее растянуть */
-}
 
 /* модальное окошко */
+
+.fieldset {
+  padding: 0;
+  margin: 0;
+}
 
 .modal {
   background-color: white;
@@ -783,6 +790,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   box-sizing: border-box;
   padding: 65px 80px 85px 100px;
+  width: 960px;
 }
 
 .modal-button {
@@ -804,7 +812,7 @@ input[type="radio"].visually-hidden {
   font-weight: 500;
   line-height: 1;
 
-  margin-bottom: 32px;
+  margin-bottom: 41px;
 }
 
 .modal-label {
@@ -814,7 +822,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
 
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .input-style {
@@ -822,17 +830,15 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 18px;
   border: 2px solid #d7dcde;
+  border-radius: 3px;
   outline: none;
 
   margin-bottom: 15px;
+  margin-left: 2px;
   display: inline-block;
-
-  padding-top: 10px;
-}
-
-.input-style[type=text],
-.input-style[type=email] {
+  box-sizing: border-box;
   width: 360px;
+  padding: 15px 15px 13px 14px;
 }
 
 .input-style:hover {
