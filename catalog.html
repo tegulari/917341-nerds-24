@@ -31,14 +31,24 @@
 			<section class="user-choices">
 				<h2 class="visually-hidden">Предпочтения по шаблонам</h2>
 				<form class="filter" action="https://echo.htmlacademy.ru/" method="get">
+
 					<fieldset class="fieldset">
 						<legend class="legend filter-legend">Стоимость:</legend>
-						<input class="filter-input" type="range" min="0" max="15000">
-						<p>
-							От <span class="choiced-price">0</span> до <span class="choiced-price">15000</span>
-						</p>
-						<!-- не знаю пока, как сделать эту форму -->
+						<div class="range-filter">
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="toogle toogle-min"></div>
+								<div class="toogle toogle-max"></div>
+							</div>
+							<div class="price-controls">
+								<label class="min-price"> от <input class="price-input" name="min-price" type="text" value="0"></label>
+								<label class="max-price"> до <input class="price-input" name="max-price" type="text" value="15000"></label>
+							</div>
+						</div>
 					</fieldset>
+
 					<fieldset class="fieldset">
 						<legend class="legend filter-legend">Сетка:</legend>
 						<ul class="filter-list">
