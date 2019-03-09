@@ -501,57 +501,6 @@ input[type="radio"].visually-hidden {
   top: 21px;
 }
 
-.nerds-real-contacts {
-  position: relative;
-  box-sizing: border-box;
-}
-
-/* окошко с адресом */
-
-.nerds-address {
-  background-color: white;
-  position: absolute;
-  top: 54px;
-  left: 91px;
-  padding: 31px 68px 81px 50px;
-  box-sizing: border-box;
-}
-
-.nerds-address h3 {
-  margin-bottom: 7px;
-  display: inline-block;
-}
-
-.nerds-address p {
-  margin-bottom: 7px;
-}
-
-
-.address-button {
-  min-width: 220px;
-  margin-top: 27px;
-}
-
-.nerds-real-contacts img {
-  margin: 53px auto;
-  display: block;
-}
-
-.social-buttons {
-  padding: 0;
-  display: flex;
-}
-
-.socials {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-social-text {
-  margin-right: 214px;
-}
-
-
 /*основная часть внутренней*/
 
 .page-content {
@@ -732,11 +681,30 @@ input[type="radio"].visually-hidden {
 
 /*футер*/
 
+.nerds-real-contacts {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* окошко с адресом */
+
+.nerds-address {
+  background-color: white;
+  position: absolute;
+  top: 54px;
+  left: 210px;
+  padding: 31px 50px 53px 51px;
+  box-sizing: border-box;
+}
+
 .nerds-address-head {
-  color: #000000;
+  margin-bottom: 7px;
+  display: inline-block;
+
   font-size: 18px;
-  font-weight: 700;
   line-height: 30px;
+  font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -745,20 +713,45 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
 }
 
+.address-button {
+  min-width: 220px;
+  margin-top: 27px;
+}
+
+/* карта */
+
+.nerds-real-contacts img {
+  margin: 53px auto;
+  display: block;
+}
+
+/* нижний раздел с контактами */
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-text {
+  margin-right: 214px;
+  margin-bottom: 7px;
+
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
 .social-buttons {
   list-style: none;
+
+  padding: 0;
+  display: flex;
 }
 
 .social-button {
   text-decoration: none;
   background-color: #e1e1e1;
-}
-
-.footer-social-text {
-  color: #444444;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
 }
 
 .social-lead {
