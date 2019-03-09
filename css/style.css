@@ -693,12 +693,12 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 54px;
   left: 210px;
-  padding: 31px 50px 53px 51px;
+  padding: 31px 50px 44px 51px;
   box-sizing: border-box;
 }
 
 .nerds-address-head {
-  margin-bottom: 7px;
+  margin-bottom: 23px;
   display: inline-block;
 
   font-size: 18px;
@@ -711,6 +711,8 @@ input[type="radio"].visually-hidden {
 .footer-address-text {
   color: #666666;
   line-height: 18px;
+
+  margin: 0 0 14px;
 }
 
 .address-button {
