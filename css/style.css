@@ -722,9 +722,23 @@ input[type="radio"].visually-hidden {
 
 /* карта */
 
-.nerds-real-contacts img {
+.map {
   margin: 53px auto;
   display: block;
+}
+
+.nerds-real-contacts::after {
+  content: "";
+
+  background-image: url("../img/map-marker.png");
+  width: 231px;
+  height: 190px;
+  display: block;
+
+  position: absolute;
+  z-index: 1;
+  top: 89px;
+  right: 461px;
 }
 
 /* нижний раздел с контактами */
