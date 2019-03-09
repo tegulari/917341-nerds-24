@@ -693,7 +693,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 54px;
   left: 210px;
-  padding: 31px 50px 44px 51px;
+  padding: 31px 50px 48px 51px;
   box-sizing: border-box;
 }
 
@@ -723,7 +723,7 @@ input[type="radio"].visually-hidden {
 /* карта */
 
 .map {
-  margin: 53px auto;
+  margin: 53px auto 60px;
   display: block;
 }
 
