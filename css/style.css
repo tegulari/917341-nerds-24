@@ -389,6 +389,9 @@ input[type="radio"].visually-hidden {
 
 .article-header {
   margin-bottom: 34px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .article-column p {
@@ -424,12 +427,6 @@ input[type="radio"].visually-hidden {
 
 .article-footer img {
   margin-bottom: 30px;
-}
-
-.lead {
-  font-size: 45px;
-  font-weight: 500;
-  line-height: 1;
 }
 
 .article-footer .article-subheader {
@@ -621,7 +618,6 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-legend {
-
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -709,21 +705,35 @@ input[type="radio"].visually-hidden {
   position: relative;
   margin-bottom: 34px;
   padding-top: 40px;
+  background-color: #e9e9e9;
+  border-radius: 3px;
+}
+
+.current-template-item,
+.template-item:hover,
+.template-item:focus {
+  background-color: #4d4d4d;
 }
 
 .template-info-container {
   text-align: center;
 
   background-color: #eeeeee;
-  width: 360px;
+  left: 0;
+  right: 0;
 
   box-sizing: border-box;
-  display: inline-block;
   position: absolute;
   bottom: 0;
   min-height: 230px;
 
   padding: 26px 30px;
+  display: none;
+}
+
+.template-item:hover .template-info-container,
+.template-item:focus .template-info-container {
+  display: block;
 }
 
 
