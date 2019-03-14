@@ -37,6 +37,7 @@ input[type="radio"].visually-hidden {
 .wrapper {
   width: 1160px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* Кнопка вообще*/
@@ -709,7 +710,10 @@ input[type="radio"].visually-hidden {
   border-radius: 3px;
 }
 
-.current-template-item,
+.template-item img {
+  display: block;
+}
+
 .template-item:hover,
 .template-item:focus {
   background-color: #4d4d4d;
@@ -790,7 +794,6 @@ input[type="radio"].visually-hidden {
 /*футер*/
 
 .nerds-real-contacts {
-  position: relative;
   box-sizing: border-box;
 }
 
@@ -799,15 +802,13 @@ input[type="radio"].visually-hidden {
 .nerds-address {
   background-color: white;
   position: absolute;
-  top: 54px;
-  left: 210px;
-  padding: 31px 50px 48px 51px;
+  bottom: 114px;
+  padding: 31px 50px 48px;
   box-sizing: border-box;
 }
 
 .nerds-address-head {
   margin-bottom: 23px;
-  display: inline-block;
 
   font-size: 18px;
   line-height: 30px;
@@ -835,19 +836,6 @@ input[type="radio"].visually-hidden {
   display: block;
 }
 
-.nerds-real-contacts::after {
-  content: "";
-
-  background-image: url("../img/map-marker.png");
-  width: 231px;
-  height: 190px;
-  display: block;
-
-  position: absolute;
-  z-index: 1;
-  top: 89px;
-  right: 461px;
-}
 
 /* нижний раздел с контактами */
 
@@ -871,11 +859,18 @@ input[type="radio"].visually-hidden {
 
   padding: 0;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 260px;
+  margin: 0;
 }
 
 .social-button {
   text-decoration: none;
   background-color: #e1e1e1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .social-lead {
