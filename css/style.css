@@ -140,9 +140,7 @@ input[type="radio"].visually-hidden {
   line-height: 55px;
   font-weight: 500;
   text-transform: none;
-  margin-top: 68px;
-  margin-left: 216px;
-  padding-bottom: 71px;
+  margin: 68px auto 108px;
 
   order: 1;
 }
@@ -486,8 +484,6 @@ input[type="radio"].visually-hidden {
   align-items: center;
 }
 
-/* не знаю, как выровнять его по вертикали точнее */
-
 
 .nerds-friends-item:not(:last-child)::after {
   content: "";
@@ -505,7 +501,7 @@ input[type="radio"].visually-hidden {
 .page-content {
   display: flex;
   justify-content: space-between;
-  padding-top: 51px;
+  padding-top: 52px;
 }
 
 /*стоимость*/
@@ -725,7 +721,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 
   padding: 0;
-  margin-top: 52px;
+  margin-top: 50px;
   margin-bottom: 24px;
   width: 760px;
 }
@@ -794,10 +790,7 @@ input[type="radio"].visually-hidden {
 }
 
 .pagination {
-  margin-bottom: 8px;
   width: 445px;
-  box-sizing: border-box;
-  display: inline-block;
 }
 
 .pages-list {
@@ -823,7 +816,7 @@ input[type="radio"].visually-hidden {
 
 .nerds-real-contacts {
   box-sizing: border-box;
-  margin-top: 53px;
+  margin-top: 59px;
   margin-bottom: 60px;
 }
 
@@ -1001,5 +994,3 @@ textarea.input-style {
   border-color: #e74246;
   color: #e74246;
 }
-
-/* почему-то оно всегда инвалид */
