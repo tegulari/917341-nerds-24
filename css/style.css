@@ -679,7 +679,6 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-
 }
 
 .filter-input[type="checkbox"] + label::before {
@@ -702,7 +701,7 @@ input[type="radio"].visually-hidden {
   height: 18px;
 
   background-color: white;
-  border: 4px solid black;
+  border: 4px solid #a6a6a6;
   border-radius: 50%;
 }
 
@@ -718,11 +717,11 @@ input[type="radio"].visually-hidden {
 
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #a6a6a6;
   border-radius: 50%;
 }
 
-.filter-input[type="checkbox"]:checked + label::after {
+.filter-input[type="checkbox"]:checked + label::before {
   content: "";
 
   position: absolute;
