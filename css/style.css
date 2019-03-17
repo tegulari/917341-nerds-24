@@ -906,7 +906,6 @@ input[type="radio"].visually-hidden {
   align-items: flex-end;
 }
 
-
 .social-button {
   text-decoration: none;
   background-color: #e1e1e1;
@@ -914,6 +913,21 @@ input[type="radio"].visually-hidden {
   height: 80px;
   border-radius: 50%;
   margin-right: 11px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-button-vk {
+  background-image: url("../img/vk-icon.svg");
+}
+
+.social-button-fb {
+  background-image: url("../img/fb-icon.svg");
+}
+
+.social-button-insta {
+  background-image: url("../img/insta-icon.svg");
 }
 
 .social-lead {
