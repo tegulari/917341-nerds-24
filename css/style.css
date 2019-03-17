@@ -567,7 +567,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
 
   border: 8px solid #ffffff;
-  border-color: #ababab;
+  background-color: #ababab;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
@@ -659,6 +659,8 @@ input[type="radio"].visually-hidden {
   line-height: 20px;
   display: block;
   margin-bottom: 20px;
+
+  position: relative;
 }
 
 .filter-list {
@@ -673,9 +675,72 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
+.filter-input + label::before {
+  content: "";
+
+  position: absolute;
+
+}
+
+.filter-input[type="checkbox"] + label::before {
+  top: -5px;
+  left: -36px;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../img/checkbox-off.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.filter-input[type="radio"] + label::before {
+  top: -2px;
+  left: -35px;
+
+  width: 18px;
+  height: 18px;
+
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 50%;
+}
+
+.filter-input[type="radio"]:checked + label::after {
+  content: "";
+
+  position: absolute;
+  top: 6px;
+  left: -27px;
+
+  width: 10px;
+  height: 10px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.filter-input[type="checkbox"]:checked + label::after {
+  content: "";
+
+  position: absolute;
+  top: -5px;
+  left: -36px;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../img/checkbox-on.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .filter-button {
   min-width: 260px;
 }
+
 
 .grey-button {
   background-color: #eeeeee;
@@ -708,9 +773,12 @@ input[type="radio"].visually-hidden {
 }
 
 .sort-direction-buttons .sort-button {
-  margin-left: 10px;
+  margin-left: 12px;
   vertical-align: top;
   padding-left: 12px;
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sort-button:hover,
@@ -721,6 +789,15 @@ input[type="radio"].visually-hidden {
 .sort-button:active {
   color: #000000;
 }
+
+.sort-button-down {
+  background-image: url(../img/icon-down-dir.svg);
+}
+
+.sort-button-up {
+  background-image: url(../img/icon-up-dir.svg);
+}
+
 
 .sort {
   display: flex;
