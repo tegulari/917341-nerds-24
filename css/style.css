@@ -826,13 +826,11 @@ input[type="radio"].visually-hidden {
   position: relative;
   margin-bottom: 34px;
   padding-top: 40px;
-  background-color: #e9e9e9;
   border-radius: 3px;
 
-/*   background-image: url("../img/browser.svg");
-background-position: 0 0;
-background-repeat: no-repeat;
-opacity: 0.2; */
+  background-image: url("../img/browser-grey.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .template-item img {
@@ -841,10 +839,9 @@ opacity: 0.2; */
 
 .template-item:hover,
 .template-item:focus {
-  background-color: #4d4d4d;
-/*   background-image: url("../img/browser.svg");
-background-position: 0 0;
-background-repeat: no-repeat; */
+  background-image: url("../img/browser.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .template-info-container {
@@ -1057,6 +1054,18 @@ background-repeat: no-repeat; */
 .modal-button {
   min-width: 260px;
   margin-top: 7px;
+}
+
+.modal-close-button {
+  background-image: url("../img/close-cross.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-color: white;
+  border: none;
+
+  width: 30px;
+  padding-bottom: 25px;
 }
 
 .legend {
