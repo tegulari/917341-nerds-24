@@ -423,9 +423,25 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 
-.article-column li {
+.article-product {
+  position: relative;
+
   margin-bottom: 24px;
-  margin-left: 36px;
+  padding-left: 35px;
+}
+
+.article-product::before {
+  content: "";
+
+  position: absolute;
+
+  width: 25px;
+  height: 2px;
+
+  top: 10px;
+  left: 1px;
+
+  background-color: #fb565a;
 }
 
 .article-subheader {
@@ -438,6 +454,8 @@ input[type="radio"].visually-hidden {
   display: block;
   margin-bottom: 25px;
 }
+
+
 
 .article-footer {
   margin-left: auto;
