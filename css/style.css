@@ -8,6 +8,8 @@ body {
   color: #283136;
 
   background-color: #ffffff;
+
+  min-width: 1200px;
 }
 
 a {
@@ -411,6 +413,7 @@ input[type="radio"].visually-hidden {
   font-size: 45px;
   font-weight: 500;
   line-height: 1;
+  min-width: 700px;
 }
 
 .article-column p {
@@ -649,10 +652,6 @@ input[type="radio"].visually-hidden {
   border: none;
   margin: 0;
   padding: 0;
-}
-
-.filter-fieldset {
-  display: flex;
 }
 
 .filter-legend {
