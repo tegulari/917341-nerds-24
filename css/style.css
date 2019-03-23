@@ -1003,6 +1003,7 @@ label:focus::after {
 .footer-address-text {
   color: #666666;
   line-height: 18px;
+  max-width: 210px;
 
   margin: 0 0 19px;
 }
@@ -1093,7 +1094,7 @@ label:focus::after {
   font-size: 36px;
   font-weight: 700;
   line-height: 1;
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
 }
 
@@ -1105,7 +1106,7 @@ label:focus::after {
   background-size: 590px 960px;
   display: none;
   box-sizing: border-box;
-  padding: 65px 80px 85px 100px;
+  padding: 65px 80px 79px 100px;
   width: 960px;
 
   position: fixed;
@@ -1179,15 +1180,15 @@ label:focus::after {
   font-weight: 500;
   line-height: 1;
 
-  margin-bottom: 38px;
+  margin-bottom: 42px;
 }
 
 .modal-label {
   color: #000000;
   font-weight: 700;
   line-height: 18px;
-  margin: 0 0 9px;
-  display: inline-block;
+  margin: 0 0 10px;
+  display: block;
 }
 
 .input-style {
