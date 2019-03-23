@@ -215,6 +215,7 @@ input[type="radio"].visually-hidden {
   font-weight: 500;
   line-height: 1;
   width: 380px;
+  color: #000000;
 }
 
 .credo-item .button {
@@ -414,6 +415,7 @@ input[type="radio"].visually-hidden {
   font-weight: 500;
   line-height: 1;
   min-width: 700px;
+  color: #000000;
 }
 
 .article-column p {
@@ -660,6 +662,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2px;
+  color: #000000;
 
   margin: 0;
 }
