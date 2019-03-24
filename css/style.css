@@ -36,7 +36,9 @@ input[type="radio"].visually-hidden {
 
   white-space: nowrap;
 
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -63,7 +65,9 @@ input[type="radio"].visually-hidden {
   outline: none;
   border-radius: 3px;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   display: inline-block;
 
   padding: 17px 20px 14px;
@@ -79,7 +83,8 @@ input[type="radio"].visually-hidden {
   background-color: #d7373b;
   color: rgba(255, 255, 255, 0.3);
   outline: none;
-  box-shadow: inset 0px 3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0px 3px rgba(0,0,0,0.1);
+          box-shadow: inset 0px 3px rgba(0,0,0,0.1);
 }
 
 /* серый фон для двух верхних блоков */
@@ -98,9 +103,13 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  box-sizing: border-box;
-  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .navigation {
@@ -128,9 +137,14 @@ input[type="radio"].visually-hidden {
   padding: 0;
   width: 440px;
   margin: 75px 200px auto;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .logo {
@@ -149,7 +163,8 @@ input[type="radio"].visually-hidden {
 .user-navigation {
   width: 160px;
   margin: 75px 0 auto;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: right;
 }
 
@@ -169,7 +184,11 @@ input[type="radio"].visually-hidden {
   text-transform: none;
   margin: 68px auto 108px;
 
-  order: 1;
+  -webkit-box-ordinal-group: 2;
+
+      -ms-flex-order: 1;
+
+          order: 1;
 }
 
 .site-navigation-current {
@@ -252,7 +271,9 @@ input[type="radio"].visually-hidden {
 
   text-align: center;
   font-size: 0;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 
   vertical-align: middle;
 }
@@ -310,7 +331,8 @@ input[type="radio"].visually-hidden {
 
 
 .offers {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-top: 80px;
   padding-bottom: 80px;
   border-bottom: 1px solid #eeeeee;
@@ -319,7 +341,8 @@ input[type="radio"].visually-hidden {
 
 .offer-item {
   width: 300px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .offer-item::before {
@@ -355,8 +378,12 @@ input[type="radio"].visually-hidden {
 
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 1100px;
 }
 
@@ -404,12 +431,17 @@ input[type="radio"].visually-hidden {
 /* блок с артиклом про нердс */
 
 .info-nerds {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 40px 0 49px 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .article-column {
@@ -520,18 +552,32 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   padding: 0;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nerds-friends-item {
   width: 260px;
   position: relative;
   min-height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0.3;
 }
 
@@ -559,8 +605,12 @@ input[type="radio"].visually-hidden {
 /*основная часть внутренней*/
 
 .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 52px;
 }
 
@@ -609,7 +659,8 @@ input[type="radio"].visually-hidden {
   border: 8px solid #ffffff;
   background-color: #ababab;
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+  -webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
+          box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
 }
 
@@ -858,12 +909,20 @@ label:focus::after {
 
 
 .sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .sort-buttons-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
 }
@@ -871,9 +930,16 @@ label:focus::after {
 .templates-list {
   list-style: none;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 
   padding: 0;
   margin-top: 50px;
@@ -900,7 +966,8 @@ label:focus::after {
   background-image: url("../img/browser.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
-  box-shadow: 0px 6px 15px 0 rgba(0, 1, 1, 0.25);
+  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 1, 1, 0.25);
+          box-shadow: 0px 6px 15px 0 rgba(0, 1, 1, 0.25);
 }
 
 .template-info-container {
@@ -910,7 +977,9 @@ label:focus::after {
   left: 0;
   right: 0;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   position: absolute;
   bottom: 0;
   min-height: 230px;
@@ -965,8 +1034,14 @@ label:focus::after {
   margin: 0;
   padding: 0;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .page-button {
@@ -975,7 +1050,8 @@ label:focus::after {
 
 .page-item-current {
   background-color: white;
-  box-shadow: inset 0 0 0 3px #dbdbdb;
+  -webkit-box-shadow: inset 0 0 0 3px #dbdbdb;
+          box-shadow: inset 0 0 0 3px #dbdbdb;
 }
 
 .page-item:nth-child(4) .page-button {
@@ -987,7 +1063,8 @@ label:focus::after {
 /*футер*/
 
 .nerds-real-contacts {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 59px;
   margin-bottom: 60px;
 }
@@ -999,7 +1076,8 @@ label:focus::after {
   position: absolute;
   top: -363px;
   padding: 49px 50px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .nerds-address-head {
@@ -1036,8 +1114,12 @@ label:focus::after {
 /* нижний раздел с контактами */
 
 .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 70px;
 }
 
@@ -1055,9 +1137,13 @@ label:focus::after {
   list-style: none;
 
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .social-button {
@@ -1086,7 +1172,8 @@ label:focus::after {
 
 .social-button:active {
   background-color: #d7373b;
-  box-shadow: inset 0px 3px rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0px 3px rgba(0,0,0,0.2);
+          box-shadow: inset 0px 3px rgba(0,0,0,0.2);
 }
 
 .social-button-vk:active {
@@ -1117,7 +1204,8 @@ label:focus::after {
   background-color: white;
   background-size: 590px 960px;
   display: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 65px 80px 79px 100px;
   width: 960px;
 
@@ -1127,7 +1215,9 @@ label:focus::after {
   right: 0;
   bottom: 100px;
 
-  box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
+  -webkit-box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
+
+          box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
 
   z-index: 4;
 }
@@ -1136,18 +1226,25 @@ label:focus::after {
   padding: 0;
   margin: 0 auto;
   width: 760px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .modal-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .modal-row {
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-bottom: 32px;
   vertical-align: middle;
 }
@@ -1212,7 +1309,9 @@ label:focus::after {
   border-radius: 3px;
   outline: none;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   width: 360px;
   padding: 15px 15px 13px 14px;
 }
