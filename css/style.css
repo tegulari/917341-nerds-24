@@ -18,6 +18,11 @@ a {
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -932,6 +937,9 @@ label:focus::after {
   color: #666666;
 
   min-height: 40px;
+  max-height: 50px;
+  word-wrap: break-word;
+  overflow: hidden;
   padding: 0 30px;
   margin: 0 0 24px;
 }
