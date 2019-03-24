@@ -110,6 +110,7 @@ input[type="radio"].visually-hidden {
 .navigation a {
   color: #000000;
   display: inline-block;
+  vertical-align: middle;
   padding-bottom: 4px;
 }
 
@@ -226,7 +227,7 @@ input[type="radio"].visually-hidden {
 .credo-item .button {
   display: inline-block;
   min-width: 240px;
-
+  vertical-align: middle;
 }
 
 .credo-item p {
@@ -252,6 +253,8 @@ input[type="radio"].visually-hidden {
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
+
+  vertical-align: middle;
 }
 
 .slider-controls i {
@@ -625,6 +628,7 @@ input[type="radio"].visually-hidden {
 .price-controls label {
   display: inline-block;
   width: 50%;
+  vertical-align: middle;
 
   font-size: 16px;
   text-transform: uppercase;
@@ -937,9 +941,9 @@ label:focus::after {
   color: #666666;
 
   min-height: 40px;
-  max-height: 50px;
+  max-height: 200px;
   word-wrap: break-word;
-  overflow: hidden;
+  overflow: auto;
   padding: 0 30px;
   margin: 0 0 24px;
 }
@@ -1145,6 +1149,7 @@ label:focus::after {
   display: inline-block;
   box-sizing: border-box;
   margin-bottom: 32px;
+  vertical-align: middle;
 }
 
 .modal-button {
